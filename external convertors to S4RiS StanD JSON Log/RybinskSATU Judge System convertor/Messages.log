@@ -1,0 +1,412 @@
+18.10.2012 8:39:49> Open log file session
+18.10.2012 10:10:26> Team: OPUK-500-5 10.10.26 [+00:10:10] Problem B. Wrong answer. Test No. 1
+18.10.2012 10:11:47> Team: ECN-515-2 10.11.47 [+00:11:06] Problem B. Accepted.
+18.10.2012 10:12:50> Team: MPO-511-6 10.12.45 [+00:12:05] Problem B. Accepted.
+18.10.2012 10:13:27> Team: OPUK-500-1 10.13.27 [+00:12:49] Problem B. Accepted.
+18.10.2012 10:15:13> Team: OPUK-500-5 10.15.13 [+00:14:29] Problem B. Accepted.
+18.10.2012 10:15:20> Team: MPO-512-4 10.15.16 [+00:14:52] Problem G. Accepted.
+18.10.2012 10:16:32> Team: MPO-510-3 10.16.32 [+00:15:52] Problem B. Accepted.
+18.10.2012 10:18:13> Team: VS-421-01 10.18.13 [+00:17:41] Problem G. Accepted.
+18.10.2012 10:19:22> Team: VS-407-06 10.19.17 [+00:19:05] Problem B. Runtime error. Test No. 12
+18.10.2012 10:19:49> Team: MPO-510-1 10.19.49 [+00:19:25] Problem B. Runtime error. Test No. 3
+18.10.2012 10:20:36> Team: VS-407-06 10.20.36 [+00:19:56] Problem B. Accepted.
+18.10.2012 10:20:58> Team: OPUK-500-4 10.20.53 [+00:20:12] Problem B. Accepted.
+18.10.2012 10:21:11> Team: VS-421-04 10.21.11 [+00:20:59] Problem A. Wrong answer. Test No. 1
+18.10.2012 10:23:37> Team: VS-407-05 10.23.36 [+00:23:00] Problem B. Accepted.
+18.10.2012 10:24:25> Team: MPO-511-6 10.24.25 [+00:23:46] Problem C. Accepted.
+18.10.2012 10:24:27> Team: VS-421-01 10.24.23 [+00:23:44] Problem B. Accepted.
+18.10.2012 10:24:28> Team: MPO-512-1 10.24.28 [+00:23:45] Problem B. Accepted.
+18.10.2012 10:24:53> Team: VS-421-05 10.24.52 [+00:24:45] Problem B. Presentation error. Test No. 1
+18.10.2012 10:25:07> Team: VS-421-04 10.25.06 [+00:24:13] Problem A. Time limit exceeded. Test No. 41
+18.10.2012 10:25:09> Team: OPUK-500-2 10.25.04 [+00:23:47] Problem B. Accepted.
+18.10.2012 10:26:00> Team: MPO-510-1 10.25.55 [+00:25:16] Problem B. Accepted.
+18.10.2012 10:26:02> Team: MPO-511-1 10.26.02 [+00:25:40] Problem B. Wrong answer. Test No. 14
+18.10.2012 10:26:28> Team: MPO-510-2 10.26.24 [+00:26:01] Problem G. Accepted.
+18.10.2012 10:26:31> Team: ECN-515-5 10.26.31 [+00:25:57] Problem B. Time limit exceeded. Test No. 38
+18.10.2012 10:26:41> Team: ECN-507-1 10.26.41 [+00:26:29] Problem B. Wrong answer. Test No. 3
+18.10.2012 10:26:42> Team: MPO-511-5 10.26.42 [+00:26:06] Problem B. Runtime error. Test No. 12
+18.10.2012 10:27:33> Team: MPO-512-4 10.27.28 [+00:26:55] Problem B. Accepted.
+18.10.2012 10:28:00> Team: VS-421-05 10.28.00 [+00:27:22] Problem B. Accepted.
+18.10.2012 10:28:08> Team: ECN-515-5 10.28.08 [+00:27:43] Problem B. Time limit exceeded. Test No. 16
+18.10.2012 10:28:34> Team: OPUK-500-5 10.28.30 [+00:28:06] Problem G. Accepted.
+18.10.2012 10:30:27> Team: OPUK-500-4 10.30.27 [+00:29:58] Problem G. Time limit exceeded. Test No. 3
+18.10.2012 10:31:41> Team: MPO-511-5 10.31.41 [+00:31:04] Problem B. Accepted.
+18.10.2012 10:32:08> Team: OPUK-500-4 10.32.03 [+00:31:40] Problem G. Accepted.
+18.10.2012 10:32:38> Team: VS-407-06 10.32.34 [+00:32:26] Problem A. Compilation error.
+18.10.2012 10:32:51> Team: MPO-512-5 10.32.51 [+00:32:07] Problem B. Accepted.
+18.10.2012 10:33:07> Team: MPO-511-4 10.33.07 [+00:32:24] Problem B. Accepted.
+18.10.2012 10:33:18> Team: MPO-510-3 10.33.18 [+00:32:40] Problem G. Accepted.
+18.10.2012 10:33:42> Team: ECN-515-5 10.33.42 [+00:32:48] Problem B. Time limit exceeded. Test No. 38
+18.10.2012 10:33:45> Team: OPUK-500-3 10.33.41 [+00:33:03] Problem B. Accepted.
+18.10.2012 10:34:39> Team: MPO-511-1 10.34.38 [+00:33:52] Problem B. Accepted.
+18.10.2012 10:34:39> Team: MPO-510-5 10.34.39 [+00:33:56] Problem B. Accepted.
+18.10.2012 10:34:41> Team: ECN-507-1 10.34.36 [+00:34:05] Problem B. Accepted.
+18.10.2012 10:35:25> Team: VS-407-04 10.35.25 [+00:34:41] Problem B. Accepted.
+18.10.2012 10:35:57> Team: VS-407-06 10.35.57 [+00:35:10] Problem A. Accepted.
+18.10.2012 10:37:14> Team: MPO-512-3 10.37.09 [+00:37:02] Problem A. Runtime error. Test No. 1
+18.10.2012 10:37:20> Team: ECN-507-6 10.37.20 [+00:37:09] Problem G. Runtime error. Test No. 4
+18.10.2012 10:37:42> Team: VS-421-06 10.37.42 [+00:37:05] Problem B. Accepted.
+18.10.2012 10:37:54> Team: ECN-515-6 10.37.49 [+00:37:18] Problem B. Accepted.
+18.10.2012 10:39:18> Team: MPO-510-2 10.39.18 [+00:38:42] Problem B. Accepted.
+18.10.2012 10:39:40> Team: MPO-512-3 10.39.40 [+00:39:28] Problem A. Wrong answer. Test No. 7
+18.10.2012 10:40:57> Team: ECN-515-5 10.40.52 [+00:40:19] Problem B. Accepted.
+18.10.2012 10:41:09> Team: ECN-507-6 10.41.09 [+00:40:57] Problem G. Runtime error. Test No. 4
+18.10.2012 10:41:11> Team: VS-407-03 10.41.11 [+00:40:56] Problem B. Wrong answer. Test No. 8
+18.10.2012 10:41:22> Team: MPO-511-2 10.41.17 [+00:41:15] Problem B. Presentation error. Test No. 1
+18.10.2012 10:42:24> Team: ECN-515-2 10.42.24 [+00:41:56] Problem G. Accepted.
+18.10.2012 10:44:14> Team: MPO-511-3 10.44.14 [+00:43:37] Problem B. Accepted.
+18.10.2012 10:45:08> Team: ECN-507-1 10.45.03 [+00:44:40] Problem G. Accepted.
+18.10.2012 10:45:35> Team: MPO-511-6 10.45.35 [+00:44:49] Problem A. Accepted.
+18.10.2012 10:46:25> Team: MPO-511-4 10.46.21 [+00:45:57] Problem G. Accepted.
+18.10.2012 10:46:33> Team: OPUK-500-4 10.46.33 [+00:45:55] Problem C. Accepted.
+18.10.2012 10:48:54> Team: VS-407-03 10.48.54 [+00:48:18] Problem B. Accepted.
+18.10.2012 10:49:21> Team: VS-407-04 10.49.16 [+00:48:53] Problem G. Accepted.
+18.10.2012 10:49:36> Team: MPO-512-6 10.49.36 [+00:48:52] Problem B. Accepted.
+18.10.2012 10:50:16> Team: OPUK-500-1 10.50.16 [+00:49:39] Problem C. Accepted.
+18.10.2012 10:51:23> Team: OPUK-500-2 10.51.22 [+00:50:53] Problem G. Accepted.
+18.10.2012 10:52:29> Team: VS-421-04 10.52.24 [+00:52:21] Problem B. Wrong answer. Test No. 1
+18.10.2012 10:53:14> Team: MPO-511-5 10.53.14 [+00:53:02] Problem G. Wrong answer. Test No. 4
+18.10.2012 10:53:34> Team: VS-421-04 10.53.34 [+00:52:58] Problem B. Accepted.
+18.10.2012 10:57:19> Team: VS-421-05 10.57.14 [+00:56:51] Problem G. Accepted.
+18.10.2012 11:00:54> Team: OPUK-500-5 11.00.54 [+01:00:15] Problem C. Accepted.
+18.10.2012 11:01:26> Team: VS-421-01 11.01.26 [+01:01:02] Problem C. Wrong answer. Test No. 27
+18.10.2012 11:01:58> Team: ECN-507-1 11.01.53 [+01:01:20] Problem C. Accepted.
+18.10.2012 11:02:39> Team: ECN-515-4 11.02.16 [+01:01:59] Problem B. Wrong answer. Test No. 16
+18.10.2012 11:03:15> Team: ECN-515-3 11.03.15 [+01:02:58] Problem B. Wrong answer. Test No. 12
+18.10.2012 11:04:29> Team: OPUK-500-3 11.04.25 [+01:04:01] Problem G. Accepted.
+18.10.2012 11:04:47> Team: MPO-511-5 11.04.47 [+01:04:19] Problem G. Accepted.
+18.10.2012 11:05:02> Team: ECN-507-6 11.05.02 [+01:04:18] Problem B. Wrong answer. Test No. 1
+18.10.2012 11:05:12> Team: ECN-515-5 11.05.07 [+01:04:59] Problem G. Time limit exceeded. Test No. 4
+18.10.2012 11:05:37> Team: MPO-511-1 11.05.37 [+01:05:20] Problem G. Runtime error. Test No. 3
+18.10.2012 11:06:31> Team: ECN-507-6 11.06.31 [+01:06:02] Problem G. Accepted.
+18.10.2012 11:06:42> Team: VS-421-01 11.06.42 [+01:06:19] Problem C. Wrong answer. Test No. 26
+18.10.2012 11:06:44> Team: MPO-510-2 11.06.43 [+01:06:24] Problem C. Runtime error. Test No. 1
+18.10.2012 11:06:45> Team: MPO-511-6 11.06.40 [+01:06:16] Problem G. Accepted.
+18.10.2012 11:08:42> Team: MPO-510-5 11.08.37 [+01:08:22] Problem G. Runtime error. Test No. 3
+18.10.2012 11:09:04> Team: MPO-511-1 11.09.04 [+01:08:35] Problem G. Accepted.
+18.10.2012 11:10:09> Team: VS-421-01 11.10.09 [+01:09:30] Problem C. Accepted.
+18.10.2012 11:10:40> Team: MPO-512-1 11.10.35 [+01:10:04] Problem C. Time limit exceeded. Test No. 42
+18.10.2012 11:12:40> Team: MPO-510-5 11.12.40 [+01:12:12] Problem G. Accepted.
+18.10.2012 11:12:47> Team: VS-407-06 11.12.47 [+01:12:19] Problem G. Accepted.
+18.10.2012 11:13:20> Team: VS-421-03 11.13.15 [+01:12:43] Problem B. Accepted.
+18.10.2012 11:13:54> Team: ECN-507-6 11.13.54 [+01:13:11] Problem B. Accepted.
+18.10.2012 11:14:07> Team: MPO-510-1 11.14.07 [+01:13:38] Problem G. Accepted.
+18.10.2012 11:15:04> Team: ECN-515-5 11.15.00 [+01:14:51] Problem G. Time limit exceeded. Test No. 1
+18.10.2012 11:15:22> Team: VS-407-05 11.15.22 [+01:15:13] Problem G. Wrong answer. Test No. 5
+18.10.2012 11:16:16> Team: ECN-507-5 11.16.16 [+01:15:55] Problem G. Presentation error. Test No. 3
+18.10.2012 11:16:43> Team: VS-421-05 11.16.38 [+01:16:08] Problem C. Wrong answer. Test No. 3
+18.10.2012 11:17:17> Team: VS-407-05 11.17.17 [+01:17:08] Problem G. Wrong answer. Test No. 5
+18.10.2012 11:17:22> Team: MPO-511-2 11.17.22 [+01:17:09] Problem B. Wrong answer. Test No. 3
+18.10.2012 11:19:50> Team: VS-407-01 11.19.45 [+01:19:12] Problem B. Accepted.
+18.10.2012 11:20:53> Team: VS-407-05 11.20.52 [+01:20:29] Problem G. Wrong answer. Test No. 34
+18.10.2012 11:22:01> Team: MPO-510-6 11.22.01 [+01:21:50] Problem B. Executable format violation. Test No. 1
+18.10.2012 11:22:23> Team: ECN-507-5 11.22.18 [+01:21:55] Problem G. Accepted.
+18.10.2012 11:22:26> Team: VS-407-05 11.22.26 [+01:21:56] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 11:23:06> Team: MPO-510-6 11.23.06 [+01:22:30] Problem B. Accepted.
+18.10.2012 11:24:21> Team: VS-407-05 11.24.16 [+01:24:11] Problem G. Wrong answer. Test No. 5
+18.10.2012 11:24:42> Team: VS-407-03 11.24.42 [+01:24:16] Problem G. Accepted.
+18.10.2012 11:25:17> Team: VS-407-05 11.25.17 [+01:24:45] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 11:26:32> Team: OPUK-500-3 11.26.27 [+01:25:53] Problem C. Accepted.
+18.10.2012 11:26:40> Team: ECN-515-1 11.26.39 [+01:26:04] Problem B. Accepted.
+18.10.2012 11:26:59> Team: OPUK-500-4 11.26.58 [+01:26:42] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 11:27:24> Team: VS-421-05 11.27.19 [+01:26:46] Problem C. Accepted.
+18.10.2012 11:29:48> Team: ECN-507-1 11.29.48 [+01:29:03] Problem A. Accepted.
+18.10.2012 11:30:03> Team: VS-407-05 11.29.59 [+01:29:39] Problem G. Wrong answer. Test No. 34
+18.10.2012 11:30:07> Team: VS-407-04 11.30.07 [+01:29:28] Problem C. Accepted.
+18.10.2012 11:30:36> Team: OPUK-500-4 11.30.35 [+01:30:17] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 11:31:39> Team: VS-407-05 11.31.39 [+01:31:06] Problem G. Wrong answer. Test No. 34
+18.10.2012 11:32:31> Team: MPO-510-2 11.32.26 [+01:31:52] Problem C. Accepted.
+18.10.2012 11:32:47> Team: MPO-511-4 11.32.47 [+01:32:16] Problem C. Wrong answer. Test No. 36
+18.10.2012 11:33:21> Team: VS-421-03 11.33.16 [+01:32:53] Problem G. Accepted.
+18.10.2012 11:33:31> Team: VS-407-06 11.33.31 [+01:32:52] Problem C. Accepted.
+18.10.2012 11:34:00> Team: ECN-507-6 11.34.00 [+01:33:21] Problem C. Accepted.
+18.10.2012 11:34:34> Team: VS-407-05 11.34.34 [+01:34:03] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 11:36:08> Team: MPO-511-5 11.36.03 [+01:35:29] Problem C. Accepted.
+18.10.2012 11:36:53> Team: ECN-515-4 11.36.30 [+01:36:12] Problem B. Wrong answer. Test No. 16
+18.10.2012 11:37:28> Team: ECN-515-2 11.37.28 [+01:36:49] Problem C. Accepted.
+18.10.2012 11:37:43> Team: OPUK-500-2 11.37.38 [+01:37:26] Problem C. Wrong answer. Test No. 16
+18.10.2012 11:38:19> Team: ECN-515-6 11.38.18 [+01:37:52] Problem G. Accepted.
+18.10.2012 11:40:18> Team: OPUK-500-5 11.40.17 [+01:40:00] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 11:41:06> Team: OPUK-500-4 11.41.01 [+01:40:54] Problem H. Wrong answer. Test No. 2
+18.10.2012 11:42:30> Team: ECN-507-3 11.42.30 [+01:42:22] Problem D. Wrong answer. Test No. 1
+18.10.2012 11:42:37> Team: ECN-515-3 11.42.37 [+01:42:20] Problem B. Runtime error. Test No. 12
+18.10.2012 11:43:07> Team: VS-421-04 11.43.07 [+01:42:51] Problem G. Presentation error. Test No. 5
+18.10.2012 11:43:09> Team: MPO-511-4 11.43.04 [+01:42:30] Problem C. Accepted.
+18.10.2012 11:44:04> Team: OPUK-500-5 11.44.04 [+01:43:35] Problem H. Accepted.
+18.10.2012 11:44:53> Team: VS-407-01 11.44.48 [+01:44:37] Problem G. Wrong answer. Test No. 3
+18.10.2012 11:44:53> Team: VS-421-01 11.44.53 [+01:44:43] Problem D. Wrong answer. Test No. 5
+18.10.2012 11:47:03> Team: OPUK-500-4 11.47.03 [+01:46:32] Problem H. Accepted.
+18.10.2012 11:47:31> Team: VS-407-01 11.47.26 [+01:47:02] Problem G. Accepted.
+18.10.2012 11:47:47> Team: VS-407-02 11.47.42 [+01:47:46] Problem G. Compilation error.
+18.10.2012 11:47:53> Team: VS-421-01 11.47.53 [+01:47:16] Problem D. Accepted.
+18.10.2012 11:48:05> Team: MPO-512-4 11.48.05 [+01:47:42] Problem A. Wrong answer. Test No. 5
+18.10.2012 11:50:02> Team: MPO-512-4 11.50.02 [+01:49:16] Problem A. Accepted.
+18.10.2012 11:50:21> Team: MPO-512-1 11.50.20 [+01:50:09] Problem G. Presentation error. Test No. 3
+18.10.2012 11:52:32> Team: MPO-510-1 11.52.27 [+01:52:06] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 11:53:46> Team: MPO-512-1 11.53.46 [+01:53:16] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 11:54:40> Team: MPO-510-1 11.54.39 [+01:54:24] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 11:57:23> Team: VS-421-04 11.57.23 [+01:57:13] Problem C. Presentation error. Test No. 1
+18.10.2012 11:57:31> Team: VS-407-03 11.57.26 [+01:56:53] Problem C. Accepted.
+18.10.2012 11:59:50> Team: ECN-507-5 11.59.50 [+01:59:14] Problem B. Accepted.
+18.10.2012 12:01:25> Team: ECN-507-6 12.01.21 [+02:00:38] Problem A. Accepted.
+18.10.2012 12:01:28> Team: MPO-511-6 12.01.28 [+02:01:08] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:01:50> Team: ECN-507-3 12.01.50 [+02:01:23] Problem G. Accepted.
+18.10.2012 12:02:11> Team: VS-407-06 12.02.06 [+02:01:53] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:02:25> Team: OPUK-500-1 12.02.25 [+02:01:53] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 12:03:13> Team: ECN-515-2 12.03.13 [+02:02:59] Problem H. Wrong answer. Test No. 2
+18.10.2012 12:05:28> Team: OPUK-500-1 12.05.23 [+02:05:18] Problem G. Wrong answer. Test No. 7
+18.10.2012 12:05:30> Team: ECN-515-5 12.05.30 [+02:05:20] Problem G. Wrong answer. Test No. 3
+18.10.2012 12:07:09> Team: VS-421-01 12.07.09 [+02:06:38] Problem H. Accepted.
+18.10.2012 12:08:03> Team: MPO-511-6 12.07.58 [+02:07:42] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:08:56> Team: MPO-512-4 12.08.56 [+02:08:17] Problem C. Accepted.
+18.10.2012 12:09:52> Team: VS-421-04 12.09.52 [+02:09:15] Problem C. Accepted.
+18.10.2012 12:10:36> Team: MPO-512-5 12.10.31 [+02:10:05] Problem G. Time limit exceeded. Test No. 35
+18.10.2012 12:11:08> Team: ECN-515-2 12.11.08 [+02:10:58] Problem H. Wrong answer. Test No. 2
+18.10.2012 12:14:11> Team: MPO-510-3 12.14.10 [+02:13:32] Problem C. Accepted.
+18.10.2012 12:16:19> Team: VS-421-04 12.16.15 [+02:15:52] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 12:17:58> Team: VS-407-04 12.17.58 [+02:17:13] Problem A. Accepted.
+18.10.2012 12:18:24> Team: OPUK-500-2 12.18.24 [+02:18:14] Problem H. Wrong answer. Test No. 1
+18.10.2012 12:18:49> Team: VS-421-03 12.18.44 [+02:18:38] Problem A. Wrong answer. Test No. 5
+18.10.2012 12:19:44> Team: MPO-510-5 12.19.44 [+02:19:26] Problem I. Wrong answer. Test No. 16
+18.10.2012 12:19:57> Team: MPO-510-1 12.19.57 [+02:19:33] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:21:18> Team: ECN-507-1 12.21.13 [+02:21:17] Problem H. Compilation error.
+18.10.2012 12:22:14> Team: VS-407-01 12.22.14 [+02:21:35] Problem C. Accepted.
+18.10.2012 12:22:26> Team: OPUK-500-2 12.22.26 [+02:22:11] Problem H. Runtime error. Test No. 13
+18.10.2012 12:24:31> Team: VS-407-06 12.24.31 [+02:24:14] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:24:36> Team: ECN-507-1 12.24.36 [+02:24:23] Problem H. Runtime error. Test No. 13
+18.10.2012 12:24:39> Team: VS-421-04 12.24.34 [+02:24:13] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 12:25:36> Team: OPUK-500-3 12.25.31 [+02:25:21] Problem H. Memory limit exceeded. Test No. 13
+18.10.2012 12:26:26> Team: OPUK-500-2 12.26.25 [+02:26:08] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 12:27:24> Team: OPUK-500-4 12.27.24 [+02:26:38] Problem A. Accepted.
+18.10.2012 12:27:57> Team: MPO-512-4 12.27.52 [+02:27:39] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:29:36> Team: MPO-510-4 12.29.36 [+02:28:53] Problem B. Accepted.
+18.10.2012 12:32:31> Team: VS-421-06 12.32.26 [+02:32:19] Problem C. Wrong answer. Test No. 2
+18.10.2012 12:32:41> Team: ECN-515-4 12.32.41 [+02:32:10] Problem C. Runtime error. Test No. 43
+18.10.2012 12:32:58> Team: ECN-515-3 12.32.58 [+02:32:31] Problem G. Accepted.
+18.10.2012 12:34:23> Team: MPO-511-6 12.34.23 [+02:34:11] Problem F. Wrong answer. Test No. 1
+18.10.2012 12:35:28> Team: MPO-512-4 12.35.28 [+02:35:13] Problem H. Wrong answer. Test No. 2
+18.10.2012 12:35:36> Team: VS-407-06 12.35.31 [+02:35:09] Problem H. Accepted.
+18.10.2012 12:36:20> Team: ECN-507-2 12.36.20 [+02:36:11] Problem B. Wrong answer. Test No. 1
+18.10.2012 12:36:21> Team: MPO-512-3 12.36.20 [+02:35:45] Problem B. Accepted.
+18.10.2012 12:36:49> Team: VS-421-03 12.36.45 [+02:36:11] Problem C. Accepted.
+18.10.2012 12:37:13> Team: MPO-510-1 12.37.09 [+02:37:13] Problem C. Compilation error.
+18.10.2012 12:37:22> Team: OPUK-500-1 12.37.21 [+02:37:05] Problem G. Wrong answer. Test No. 5
+18.10.2012 12:38:03> Team: MPO-510-1 12.38.03 [+02:37:32] Problem C. Wrong answer. Test No. 36
+18.10.2012 12:38:30> Team: VS-421-06 12.38.25 [+02:37:59] Problem C. Wrong answer. Test No. 30
+18.10.2012 12:38:33> Team: MPO-512-4 12.38.32 [+02:37:57] Problem H. Accepted.
+18.10.2012 12:39:03> Team: VS-421-02 12.39.03 [+02:38:47] Problem B. Runtime error. Test No. 12
+18.10.2012 12:41:15> Team: ECN-507-2 12.41.15 [+02:40:37] Problem B. Accepted.
+18.10.2012 12:42:25> Team: ECN-515-5 12.42.20 [+02:41:56] Problem G. Time limit exceeded. Test No. 34
+18.10.2012 12:43:17> Team: MPO-510-1 12.43.17 [+02:42:48] Problem C. Wrong answer. Test No. 36
+18.10.2012 12:46:35> Team: ECN-507-3 12.46.35 [+02:46:18] Problem B. Wrong answer. Test No. 8
+18.10.2012 12:47:48> Team: VS-421-06 12.47.43 [+02:47:09] Problem C. Accepted.
+18.10.2012 12:48:59> Team: VS-421-02 12.48.58 [+02:48:40] Problem B. Runtime error. Test No. 12
+18.10.2012 12:49:24> Team: ECN-515-3 12.49.19 [+02:49:07] Problem B. Runtime error. Test No. 16
+18.10.2012 12:49:29> Team: MPO-512-2 12.49.29 [+02:48:50] Problem C. Accepted.
+18.10.2012 12:51:40> Team: OPUK-500-2 12.51.40 [+02:51:14] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:51:57> Team: VS-421-05 12.51.57 [+02:51:49] Problem C. Presentation error. Test No. 1
+18.10.2012 12:52:25> Team: ECN-507-3 12.52.20 [+02:52:13] Problem B. Wrong answer. Test No. 8
+18.10.2012 12:53:09> Team: VS-421-05 12.53.09 [+02:52:44] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 12:54:35> Team: ECN-515-2 12.54.34 [+02:54:17] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 12:55:23> Team: ECN-507-3 12.55.18 [+02:55:13] Problem B. Wrong answer. Test No. 8
+18.10.2012 12:55:52> Team: MPO-511-6 12.55.52 [+02:55:21] Problem H. Accepted.
+18.10.2012 12:56:00> Team: VS-421-03 12.56.00 [+02:55:42] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 12:56:13> Team: VS-421-04 12.56.13 [+02:56:02] Problem G. Presentation error. Test No. 6
+18.10.2012 12:56:26> Team: ECN-507-1 12.56.21 [+02:56:01] Problem F. Time limit exceeded. Test No. 17
+18.10.2012 12:56:56> Team: VS-407-01 12.56.56 [+02:56:40] Problem E. Time limit exceeded. Test No. 2
+18.10.2012 12:59:29> Team: ECN-515-5 12.59.24 [+02:59:00] Problem G. Accepted.
+18.10.2012 13:00:55> Team: ECN-515-4 13.00.55 [+03:00:37] Problem B. Wrong answer. Test No. 14
+18.10.2012 13:01:17> Team: MPO-510-6 13.01.17 [+03:01:09] Problem G. Wrong answer. Test No. 5
+18.10.2012 13:02:44> Team: OPUK-500-2 13.02.39 [+03:02:19] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:03:56> Team: VS-421-02 13.03.56 [+03:03:37] Problem B. Runtime error. Test No. 12
+18.10.2012 13:04:05> Team: MPO-510-1 13.04.05 [+03:03:26] Problem C. Accepted.
+18.10.2012 13:05:05> Team: ECN-515-1 13.05.05 [+03:04:57] Problem C. Wrong answer. Test No. 1
+18.10.2012 13:05:20> Team: MPO-512-3 13.05.15 [+03:04:54] Problem G. Accepted.
+18.10.2012 13:05:41> Team: VS-421-02 13.05.41 [+03:05:04] Problem B. Accepted.
+18.10.2012 13:06:50> Team: ECN-515-2 13.06.45 [+03:06:37] Problem H. Wrong answer. Test No. 6
+18.10.2012 13:07:22> Team: ECN-507-6 13.07.22 [+03:07:04] Problem I. Wrong answer. Test No. 16
+18.10.2012 13:09:25> Team: ECN-515-2 13.09.20 [+03:09:14] Problem H. Wrong answer. Test No. 6
+18.10.2012 13:09:37> Team: ECN-515-1 13.09.37 [+03:08:59] Problem C. Accepted.
+18.10.2012 13:10:21> Team: ECN-515-2 13.10.21 [+03:10:02] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:10:26> Team: OPUK-500-3 13.10.26 [+03:09:57] Problem H. Accepted.
+18.10.2012 13:11:07> Team: OPUK-500-4 13.11.02 [+03:10:49] Problem F. Wrong answer. Test No. 16
+18.10.2012 13:11:51> Team: ECN-507-6 13.11.51 [+03:11:42] Problem E. Time limit exceeded. Test No. 2
+18.10.2012 13:12:38> Team: ECN-507-1 13.12.38 [+03:12:15] Problem F. Time limit exceeded. Test No. 17
+18.10.2012 13:12:47> Team: OPUK-500-1 13.12.42 [+03:12:29] Problem G. Time limit exceeded. Test No. 3
+18.10.2012 13:13:48> Team: OPUK-500-2 13.13.48 [+03:13:25] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:14:20> Team: ECN-515-2 13.14.19 [+03:14:00] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:15:49> Team: MPO-511-2 13.15.44 [+03:15:22] Problem G. Accepted.
+18.10.2012 13:17:02> Team: ECN-507-3 13.17.01 [+03:16:49] Problem B. Wrong answer. Test No. 8
+18.10.2012 13:18:51> Team: ECN-507-6 13.18.46 [+03:18:43] Problem I. Wrong answer. Test No. 2
+18.10.2012 13:19:01> Team: MPO-511-2 13.19.01 [+03:18:47] Problem B. Wrong answer. Test No. 3
+18.10.2012 13:19:08> Team: OPUK-500-1 13.19.08 [+03:18:41] Problem G. Accepted.
+18.10.2012 13:20:23> Team: VS-421-03 13.20.23 [+03:19:54] Problem A. Wrong answer. Test No. 32
+18.10.2012 13:21:05> Team: VS-421-01 13.21.00 [+03:20:51] Problem A. Wrong answer. Test No. 4
+18.10.2012 13:22:00> Team: MPO-512-4 13.22.00 [+03:21:27] Problem D. Accepted.
+18.10.2012 13:22:04> Team: ECN-507-6 13.22.04 [+03:21:45] Problem I. Wrong answer. Test No. 16
+18.10.2012 13:22:14> Team: OPUK-500-3 13.22.09 [+03:21:49] Problem A. Wrong answer. Test No. 31
+18.10.2012 13:22:16> Team: ECN-515-2 13.22.16 [+03:22:06] Problem F. Wrong answer. Test No. 1
+18.10.2012 13:23:25> Team: VS-421-03 13.23.24 [+03:22:56] Problem A. Wrong answer. Test No. 32
+18.10.2012 13:25:29> Team: VS-421-01 13.25.24 [+03:24:44] Problem A. Runtime error. Test No. 56
+18.10.2012 13:25:50> Team: ECN-515-4 13.25.50 [+03:25:20] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:27:38> Team: MPO-510-2 13.27.38 [+03:27:22] Problem D. Wrong answer. Test No. 16
+18.10.2012 13:29:01> Team: MPO-511-5 13.28.56 [+03:28:35] Problem D. Wrong answer. Test No. 30
+18.10.2012 13:29:03> Team: VS-421-04 13.29.02 [+03:28:48] Problem G. Wrong answer. Test No. 9
+18.10.2012 13:29:09> Team: VS-421-01 13.29.09 [+03:28:57] Problem I. Wrong answer. Test No. 6
+18.10.2012 13:29:49> Team: VS-421-05 13.29.44 [+03:29:23] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:29:55> Team: OPUK-500-2 13.29.55 [+03:29:30] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:31:59> Team: ECN-507-1 13.31.59 [+03:31:42] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:34:13> Team: VS-407-05 13.34.07 [+03:33:42] Problem C. Wrong answer. Test No. 31
+18.10.2012 13:35:42> Team: ECN-507-5 13.35.42 [+03:35:10] Problem C. Wrong answer. Test No. 36
+18.10.2012 13:36:19> Team: MPO-510-3 13.36.19 [+03:36:02] Problem A. Wrong answer. Test No. 5
+18.10.2012 13:36:34> Team: ECN-507-6 13.36.29 [+03:36:15] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:37:47> Team: VS-421-03 13.37.46 [+03:37:25] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:37:54> Team: OPUK-500-2 13.37.53 [+03:37:35] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:38:35> Team: ECN-507-1 13.38.30 [+03:38:09] Problem H. Accepted.
+18.10.2012 13:38:37> Team: VS-421-04 13.38.37 [+03:38:09] Problem G. Accepted.
+18.10.2012 13:40:14> Team: OPUK-500-2 13.40.14 [+03:39:51] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:41:02> Team: VS-421-03 13.40.57 [+03:40:34] Problem A. Wrong answer. Test No. 32
+18.10.2012 13:41:45> Team: ECN-507-6 13.41.45 [+03:41:17] Problem H. Accepted.
+18.10.2012 13:42:09> Team: VS-421-01 13.42.09 [+03:41:22] Problem A. Accepted.
+18.10.2012 13:42:14> Team: MPO-511-1 13.42.09 [+03:41:58] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:43:49> Team: VS-421-03 13.43.48 [+03:43:22] Problem A. Wrong answer. Test No. 32
+18.10.2012 13:46:01> Team: ECN-515-2 13.46.01 [+03:45:48] Problem H. Wrong answer. Test No. 6
+18.10.2012 13:48:00> Team: OPUK-500-5 13.47.55 [+03:47:47] Problem D. Wrong answer. Test No. 3
+18.10.2012 13:48:22> Team: ECN-515-2 13.48.22 [+03:47:58] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 13:48:33> Team: ECN-507-3 13.48.32 [+03:48:21] Problem H. Presentation error. Test No. 1
+18.10.2012 13:50:31> Team: VS-407-01 13.50.26 [+03:50:15] Problem E. Time limit exceeded. Test No. 5
+18.10.2012 13:50:59> Team: MPO-512-1 13.50.58 [+03:50:35] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:51:08> Team: ECN-507-1 13.51.08 [+03:50:44] Problem F. Time limit exceeded. Test No. 17
+18.10.2012 13:51:24> Team: MPO-511-6 13.51.19 [+03:51:07] Problem D. Wrong answer. Test No. 7
+18.10.2012 13:52:24> Team: ECN-507-3 13.52.24 [+03:52:06] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:54:24> Team: ECN-507-3 13.54.19 [+03:54:09] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 13:54:40> Team: MPO-511-4 13.54.40 [+03:53:54] Problem A. Accepted.
+18.10.2012 13:56:13> Team: OPUK-500-3 13.56.13 [+03:55:27] Problem A. Accepted.
+18.10.2012 13:56:13> Team: MPO-511-6 13.56.13 [+03:55:57] Problem D. Wrong answer. Test No. 16
+18.10.2012 13:57:21> Team: ECN-507-6 13.57.16 [+03:57:08] Problem E. Wrong answer. Test No. 5
+18.10.2012 13:57:49> Team: VS-407-06 13.57.49 [+03:57:38] Problem D. Wrong answer. Test No. 1
+18.10.2012 13:58:38> Team: ECN-507-5 13.58.37 [+03:58:00] Problem C. Accepted.
+18.10.2012 13:59:31> Team: MPO-510-4 13.59.26 [+03:59:03] Problem G. Accepted.
+18.10.2012 13:59:50> Team: ECN-507-3 13.59.49 [+03:59:30] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:00:58> Team: MPO-511-5 14.00.57 [+04:00:49] Problem H. Memory limit exceeded. Test No. 1
+18.10.2012 14:01:26> Team: MPO-510-2 14.01.21 [+04:01:06] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 14:01:39> Team: OPUK-500-4 14.01.39 [+04:01:29] Problem D. Wrong answer. Test No. 3
+18.10.2012 14:01:40> Team: OPUK-500-1 14.01.40 [+04:01:15] Problem H. Accepted.
+18.10.2012 14:02:07> Team: VS-421-02 14.02.02 [+04:01:50] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:02:55> Team: VS-407-06 14.02.55 [+04:02:25] Problem D. Accepted.
+18.10.2012 14:03:11> Team: MPO-512-1 14.03.06 [+04:02:49] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:03:15> Team: OPUK-500-4 14.03.15 [+04:02:52] Problem D. Wrong answer. Test No. 16
+18.10.2012 14:04:25> Team: MPO-512-4 14.04.20 [+04:04:13] Problem F. Wrong answer. Test No. 1
+18.10.2012 14:04:39> Team: MPO-511-3 14.04.39 [+04:04:20] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:04:52> Team: ECN-507-1 14.04.52 [+04:02:25] Problem F. Runtime error. Test No. 13
+18.10.2012 14:05:10> Team: MPO-511-6 14.05.09 [+04:04:10] Problem D. Wrong answer. Test No. 16
+18.10.2012 14:05:55> Team: MPO-511-2 14.05.54 [+04:04:48] Problem A. Accepted.
+18.10.2012 14:05:59> Team: ECN-507-3 14.05.54 [+04:05:39] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:06:19> Team: ECN-507-2 14.06.19 [+04:06:12] Problem D. Wrong answer. Test No. 1
+18.10.2012 14:08:29> Team: ECN-515-2 14.08.29 [+04:08:16] Problem J. Wrong answer. Test No. 1
+18.10.2012 14:08:45> Team: OPUK-500-5 14.08.40 [+04:08:28] Problem D. Wrong answer. Test No. 16
+18.10.2012 14:10:48> Team: OPUK-500-2 14.10.48 [+04:10:40] Problem H. Presentation error. Test No. 1
+18.10.2012 14:12:27> Team: MPO-510-6 14.12.27 [+04:11:58] Problem G. Time limit exceeded. Test No. 40
+18.10.2012 14:12:57> Team: VS-407-05 14.12.50 [+04:12:23] Problem A. Wrong answer. Test No. 3
+18.10.2012 14:12:59> Team: MPO-512-5 14.12.59 [+04:12:50] Problem C. Wrong answer. Test No. 1
+18.10.2012 14:13:57> Team: ECN-507-6 14.13.56 [+04:13:49] Problem E. Wrong answer. Test No. 1
+18.10.2012 14:14:29> Team: ECN-507-2 14.14.24 [+04:14:16] Problem D. Wrong answer. Test No. 2
+18.10.2012 14:15:18> Team: ECN-507-6 14.15.18 [+04:15:01] Problem E. Time limit exceeded. Test No. 3
+18.10.2012 14:15:42> Team: MPO-511-2 14.15.37 [+04:15:33] Problem B. Wrong answer. Test No. 3
+18.10.2012 14:15:42> Team: MPO-510-1 14.15.41 [+04:15:28] Problem D. Wrong answer. Test No. 1
+18.10.2012 14:16:04> Team: ECN-507-6 14.16.04 [+04:15:52] Problem E. Wrong answer. Test No. 5
+18.10.2012 14:16:23> Team: VS-421-02 14.16.22 [+04:16:14] Problem G. Presentation error. Test No. 3
+18.10.2012 14:17:10> Team: VS-421-03 14.17.05 [+04:16:39] Problem A. Wrong answer. Test No. 32
+18.10.2012 14:17:21> Team: OPUK-500-2 14.17.20 [+04:17:04] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 14:17:28> Team: MPO-510-6 14.17.27 [+04:17:00] Problem G. Accepted.
+18.10.2012 14:17:50> Team: VS-407-04 14.17.45 [+04:17:33] Problem H. Wrong answer. Test No. 13
+18.10.2012 14:19:06> Team: OPUK-500-4 14.19.06 [+04:18:45] Problem D. Time limit exceeded. Test No. 13
+18.10.2012 14:19:38> Team: MPO-511-3 14.19.37 [+04:19:19] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:20:37> Team: VS-421-02 14.20.32 [+04:20:08] Problem G. Time limit exceeded. Test No. 35
+18.10.2012 14:22:36> Team: MPO-512-5 14.22.36 [+04:21:57] Problem C. Accepted.
+18.10.2012 14:22:51> Team: MPO-511-2 14.22.51 [+04:22:39] Problem B. Wrong answer. Test No. 3
+18.10.2012 14:24:12> Team: VS-407-04 14.24.07 [+04:23:57] Problem H. Wrong answer. Test No. 13
+18.10.2012 14:25:29> Team: VS-407-04 14.25.29 [+04:25:11] Problem H. Wrong answer. Test No. 13
+18.10.2012 14:26:25> Team: VS-407-04 14.26.25 [+04:26:24] Problem H. Compilation error.
+18.10.2012 14:26:51> Team: VS-407-05 14.26.46 [+04:26:40] Problem A. Runtime error. Test No. 1
+18.10.2012 14:27:03> Team: VS-407-06 14.27.02 [+04:26:51] Problem F. Wrong answer. Test No. 2
+18.10.2012 14:27:15> Team: MPO-510-2 14.27.15 [+04:27:04] Problem D. Presentation error. Test No. 3
+18.10.2012 14:27:20> Team: VS-407-04 14.27.15 [+04:27:19] Problem H. Compilation error.
+18.10.2012 14:27:44> Team: VS-407-05 14.27.43 [+04:27:23] Problem A. Wrong answer. Test No. 3
+18.10.2012 14:28:09> Team: VS-407-04 14.28.09 [+04:28:09] Problem H. Compilation error.
+18.10.2012 14:28:26> Team: MPO-510-3 14.28.26 [+04:27:40] Problem A. Accepted.
+18.10.2012 14:28:28> Team: OPUK-500-4 14.28.23 [+04:28:03] Problem D. Runtime error. Test No. 6
+18.10.2012 14:29:56> Team: VS-407-04 14.29.55 [+04:29:41] Problem H. Wrong answer. Test No. 13
+18.10.2012 14:31:11> Team: ECN-515-4 14.31.06 [+04:30:53] Problem B. Wrong answer. Test No. 16
+18.10.2012 14:31:16> Team: VS-421-02 14.31.15 [+04:31:14] Problem G. Compilation error.
+18.10.2012 14:31:20> Team: MPO-511-3 14.31.19 [+04:31:03] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:31:39> Team: MPO-510-5 14.31.34 [+04:31:26] Problem I. Wrong answer. Test No. 6
+18.10.2012 14:31:43> Team: MPO-511-2 14.31.43 [+04:31:28] Problem B. Wrong answer. Test No. 3
+18.10.2012 14:31:55> Team: VS-421-01 14.31.54 [+04:31:42] Problem I. Wrong answer. Test No. 6
+18.10.2012 14:32:38> Team: VS-421-02 14.32.33 [+04:32:24] Problem G. Wrong answer. Test No. 10
+18.10.2012 14:33:55> Team: VS-407-04 14.33.55 [+04:33:30] Problem H. Time limit exceeded. Test No. 14
+18.10.2012 14:36:15> Team: ECN-507-4 14.36.14 [+04:36:04] Problem C. Executable format violation. Test No. 1
+18.10.2012 14:36:28> Team: ECN-515-6 14.36.23 [+04:36:19] Problem D. Wrong answer. Test No. 1
+18.10.2012 14:36:41> Team: ECN-507-6 14.36.36 [+04:36:24] Problem E. Wrong answer. Test No. 5
+18.10.2012 14:36:48> Team: VS-407-04 14.36.47 [+04:36:21] Problem H. Accepted.
+18.10.2012 14:36:53> Team: OPUK-500-4 14.36.53 [+04:36:23] Problem D. Accepted.
+18.10.2012 14:38:10> Team: ECN-507-1 14.38.09 [+04:37:54] Problem D. Wrong answer. Test No. 16
+18.10.2012 14:38:49> Team: MPO-510-2 14.38.48 [+04:38:34] Problem D. Presentation error. Test No. 3
+18.10.2012 14:39:17> Team: ECN-507-6 14.39.12 [+04:38:54] Problem E. Time limit exceeded. Test No. 3
+18.10.2012 14:39:50> Team: MPO-511-5 14.39.50 [+04:39:20] Problem H. Accepted.
+18.10.2012 14:40:41> Team: MPO-512-4 14.40.41 [+04:40:16] Problem F. Time limit exceeded. Test No. 13
+18.10.2012 14:40:51> Team: ECN-515-3 14.40.46 [+04:40:28] Problem B. Wrong answer. Test No. 14
+18.10.2012 14:41:52> Team: OPUK-500-5 14.41.52 [+04:41:34] Problem F. Wrong answer. Test No. 16
+18.10.2012 14:42:28> Team: MPO-510-2 14.42.28 [+04:41:27] Problem H. Wrong answer. Test No. 2
+18.10.2012 14:43:56> Team: MPO-510-2 14.43.51 [+04:43:45] Problem H. Wrong answer. Test No. 2
+18.10.2012 14:44:37> Team: OPUK-500-2 14.44.36 [+04:44:28] Problem H. Wrong answer. Test No. 2
+18.10.2012 14:44:52> Team: VS-407-05 14.44.51 [+04:44:18] Problem G. Time limit exceeded. Test No. 35
+18.10.2012 14:45:42> Team: ECN-507-2 14.45.37 [+04:45:33] Problem D. Wrong answer. Test No. 3
+18.10.2012 14:45:52> Team: ECN-515-6 14.45.47 [+04:45:44] Problem D. Wrong answer. Test No. 1
+18.10.2012 14:45:56> Team: MPO-511-6 14.45.56 [+04:45:33] Problem F. Wrong answer. Test No. 13
+18.10.2012 14:45:59> Team: OPUK-500-5 14.45.58 [+04:45:42] Problem F. Wrong answer. Test No. 16
+18.10.2012 14:46:10> Team: ECN-515-6 14.46.09 [+04:46:01] Problem D. Wrong answer. Test No. 1
+18.10.2012 14:46:24> Team: ECN-507-1 14.46.24 [+04:45:58] Problem F. Runtime error. Test No. 17
+18.10.2012 14:46:30> Team: VS-407-01 14.46.25 [+04:46:11] Problem D. Time limit exceeded. Test No. 13
+18.10.2012 14:46:40> Team: VS-421-03 14.46.40 [+04:46:17] Problem F. Wrong answer. Test No. 3
+18.10.2012 14:46:54> Team: MPO-512-4 14.46.53 [+04:46:31] Problem F. Time limit exceeded. Test No. 13
+18.10.2012 14:47:03> Team: ECN-507-1 14.46.58 [+04:46:43] Problem F. Time limit exceeded. Test No. 17
+18.10.2012 14:48:12> Team: ECN-507-2 14.48.12 [+04:48:04] Problem D. Wrong answer. Test No. 3
+18.10.2012 14:49:13> Team: MPO-511-6 14.49.08 [+04:48:48] Problem D. Time limit exceeded. Test No. 18
+18.10.2012 14:49:14> Team: ECN-515-3 14.49.13 [+04:48:31] Problem B. Accepted.
+18.10.2012 14:49:19> Team: VS-421-02 14.49.19 [+04:49:04] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:49:30> Team: VS-407-01 14.49.30 [+04:49:17] Problem D. Wrong answer. Test No. 5
+18.10.2012 14:50:01> Team: ECN-507-2 14.50.00 [+04:49:53] Problem D. Wrong answer. Test No. 2
+18.10.2012 14:50:02> Team: MPO-510-1 14.49.57 [+04:49:43] Problem D. Wrong answer. Test No. 16
+18.10.2012 14:50:04> Team: MPO-511-6 14.50.04 [+04:49:45] Problem D. Wrong answer. Test No. 16
+18.10.2012 14:50:14> Team: MPO-510-2 14.50.09 [+04:49:53] Problem H. Wrong answer. Test No. 6
+18.10.2012 14:50:26> Team: MPO-512-4 14.50.26 [+04:50:03] Problem F. Time limit exceeded. Test No. 17
+18.10.2012 14:51:18> Team: MPO-511-3 14.51.17 [+04:51:01] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:52:21> Team: VS-407-01 14.52.16 [+04:52:11] Problem E. Wrong answer. Test No. 1
+18.10.2012 14:52:51> Team: OPUK-500-5 14.52.51 [+04:52:34] Problem F. Runtime error. Test No. 17
+18.10.2012 14:53:15> Team: MPO-511-2 14.53.15 [+04:53:03] Problem B. Wrong answer. Test No. 3
+18.10.2012 14:53:34> Team: MPO-512-3 14.53.29 [+04:53:18] Problem H. Time limit exceeded. Test No. 13
+18.10.2012 14:53:43> Team: MPO-512-1 14.53.43 [+04:53:31] Problem G. Security violation. Test No. 1
+18.10.2012 14:53:58> Team: MPO-511-6 14.53.58 [+04:53:40] Problem D. Wrong answer. Test No. 16
+18.10.2012 14:54:33> Team: OPUK-500-1 14.54.28 [+04:54:20] Problem D. Wrong answer. Test No. 5
+18.10.2012 14:55:07> Team: OPUK-500-5 14.55.07 [+04:54:34] Problem F. Wrong answer. Test No. 17
+18.10.2012 14:55:14> Team: VS-421-01 14.55.13 [+04:55:01] Problem I. Wrong answer. Test No. 6
+18.10.2012 14:55:30> Team: MPO-512-3 14.55.30 [+04:55:30] Problem C. Compilation error.
+18.10.2012 14:55:46> Team: OPUK-500-4 14.55.46 [+04:55:36] Problem F. Wrong answer. Test No. 2
+18.10.2012 14:55:55> Team: ECN-507-2 14.55.50 [+04:55:28] Problem D. Time limit exceeded. Test No. 13
+18.10.2012 14:56:03> Team: VS-421-03 14.56.02 [+04:55:53] Problem F. Wrong answer. Test No. 1
+18.10.2012 14:56:06> Team: MPO-512-1 14.56.01 [+04:55:48] Problem G. Wrong answer. Test No. 2
+18.10.2012 14:56:20> Team: MPO-512-4 14.56.20 [+04:55:52] Problem F. Time limit exceeded. Test No. 17
+18.10.2012 14:56:43> Team: VS-421-06 14.56.38 [+04:56:23] Problem G. Wrong answer. Test No. 3
+18.10.2012 14:57:26> Team: OPUK-500-1 14.57.25 [+04:57:17] Problem D. Wrong answer. Test No. 5
+18.10.2012 14:58:13> Team: MPO-510-2 14.58.12 [+04:58:03] Problem H. Wrong answer. Test No. 6
+18.10.2012 14:58:22> Team: MPO-511-1 14.58.17 [+04:58:11] Problem A. Wrong answer. Test No. 6
+18.10.2012 14:58:24> Team: ECN-507-5 14.58.24 [+04:58:15] Problem A. Wrong answer. Test No. 4
+18.10.2012 14:58:59> Team: MPO-510-1 14.58.59 [+04:58:47] Problem H. Wrong answer. Test No. 1
+18.10.2012 14:59:20> Team: MPO-512-5 14.59.19 [+04:59:18] Problem G. Compilation error.
+18.10.2012 14:59:21> Team: VS-421-01 14.59.17 [+04:59:11] Problem I. Runtime error. Test No. 3
+18.10.2012 14:59:25> Team: VS-421-03 14.59.25 [+04:59:17] Problem F. Wrong answer. Test No. 1
+18.10.2012 14:59:33> Team: MPO-510-1 14.59.28 [+04:59:22] Problem H. Wrong answer. Test No. 1
+18.10.2012 14:59:58> Team: MPO-512-1 14.59.58 [+04:59:50] Problem C. Wrong answer. Test No. 2
+18.10.2012 14:59:59> Team: MPO-511-4 14.59.59 [+04:59:41] Problem D. Wrong answer. Test No. 5
+18.10.2012 15:00:01> Team: MPO-510-1 14.59.56 [+04:59:52] Problem H. Wrong answer. Test No. 1
