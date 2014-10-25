@@ -11,7 +11,7 @@
       <script src="scripts/l18n.js"></script>
       <script src="scripts/main.js"></script>
       
-      <meta http-equiv=Content-Type content="text/html; charset=utf-8">
+      <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
       <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
       <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
       <meta name="description" content="S4RiS Standings Dancing (S4RiS StanD) - Web-Service-for unfreezing of the competition ACM ICPC results" />
@@ -26,7 +26,6 @@
          <div id="standings">
             <div id="contest-name"><img src="images/logo.gif"/></div>
             <div id="standings-table" style="position:relative; overflow:hidden;">
-            <!-- тут будет содержимое -->
             </div>
             <div id="contest-log">
                <h2><script>document.write(L18n.autoTranslate("chooseLogFormat"))</script></h2>
@@ -42,13 +41,18 @@
                   <option value="8">8</option>
                   <option value="9">9</option>
                </select>
-               <h2> <script>document.write(L18n.autoTranslate("chooseCurrentPos"))</script></h2>
+               <h2><script>document.write(L18n.autoTranslate("chooseCurrentPos"))</script></h2>
                <select class="select-currentRow">
                   <option value="0">0</option>
                   <option selected value="1">1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
                   <option value="4">4</option>
+               </select>
+               <h2><script>document.write(L18n.autoTranslate("chooseDefrostingOrder"))</script></h2>
+               <select class="select-defrosting-order">
+                  <option selected value="alphabeticProblemOrder"><script>document.write(L18n.autoTranslate("alphabeticProblemOrder"))</script></option>
+                  <option value="increasingLastSubmitTime"><script>document.write(L18n.autoTranslate("increasingLastSubmitTime"))</script></option>
                </select>
                <h2><script>document.write(L18n.autoTranslate("insertLog"))</script></h2>
                <div>
