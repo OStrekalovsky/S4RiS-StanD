@@ -1,6 +1,6 @@
 ﻿/**
  Main JavaScript library for S4RiS StanD.
- Version: 1.9
+ Version: 1.9.1 (Fixing problem of wrong calculation last success submission during freeze time)
  Author: Oleg "OSt" Strekalovsky.
  */
 
@@ -360,6 +360,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 contestant.penalty += this.curRunInfo.penalty;
                 updatePenalty(curRow, contestant.penalty);
                 contestant.totalSolved++;
+                contestant.lastSuccessTime = this.curRunInfo.lastSubmitTime;
                 updateTotalSolved(curRow, contestant.totalSolved);
                 this.up(curRow, contestant);
                 this.updatePlaces();
@@ -439,6 +440,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                     contestant.penalty += this.curRunInfo.penalty;
                     updatePenalty(curRow, contestant.penalty);
                     contestant.totalSolved++;
+                    contestant.lastSuccessTime = this.curRunInfo.lastSubmitTime;
                     updateTotalSolved(curRow, contestant.totalSolved);
                     wasUp = this.up(curRow, contestant);
                     this.updatePlaces();
