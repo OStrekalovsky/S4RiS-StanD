@@ -165,7 +165,7 @@ function Contest(json, defrostingComparatorName) {
                     if (run.time < limit) {
                         contestant.penalty += curInfoHash[run.problem.name].penalty;
                         contestant.totalSolved++;
-                        contestant.lastSuccessTime = curInfoHash[run.problem.name].lastSubmitTime;
+                        contestant.lastSuccessTime = Math.max(curInfoHash[run.problem.name].lastSubmitTime, contestant.lastSuccessTime);
                         curInfoHash[run.problem.name].defrost = true;
                     }
                 } else if (!curInfoHash[run.problem.name].solved) {
@@ -360,7 +360,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 contestant.penalty += this.curRunInfo.penalty;
                 updatePenalty(curRow, contestant.penalty);
                 contestant.totalSolved++;
-                contestant.lastSuccessTime = this.curRunInfo.lastSubmitTime;
+                contestant.lastSuccessTime = Math.max(this.curRunInfo.lastSubmitTime, contestant.lastSuccessTime);
                 updateTotalSolved(curRow, contestant.totalSolved);
                 this.up(curRow, contestant);
                 this.updatePlaces();
@@ -440,7 +440,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                     contestant.penalty += this.curRunInfo.penalty;
                     updatePenalty(curRow, contestant.penalty);
                     contestant.totalSolved++;
-                    contestant.lastSuccessTime = this.curRunInfo.lastSubmitTime;
+                    contestant.lastSuccessTime = Math.max(this.curRunInfo.lastSubmitTime, contestant.lastSuccessTime);
                     updateTotalSolved(curRow, contestant.totalSolved);
                     wasUp = this.up(curRow, contestant);
                     this.updatePlaces();
