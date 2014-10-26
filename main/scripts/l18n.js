@@ -35,7 +35,7 @@ function L18n() {
             "note5": "Чем больше записей в логе соревнования — тем больше нагрузка на браузер и его JS движок. <br/>На слабых машинах и не последних версиях браузеров возможно падение скорости и плавности",
             "note6": "Если вас не устраивает внешний вид таблицы или принцип подсчёта результата соревнования — напишите мне и мы вместе решим ваши проблемы",
             "note7": "Если вы использовали данную программу на своём соревновании — напишите мне о вашем опыте работы с ней.<br/>Замечания и рекомендации приветствуются!",
-            "authorInfo": "S4RiS StanD 1.9.1<br/><a href='http://github.com'>Проект на GitHub</a>.<br/>Стрекаловский Олег (<a href=\'mailto: o.strekalovsky@yandex.ru\'>o.strekalovsky@yandex.ru</a>)"
+            "authorInfo": "S4RiS StanD 1.9.1<br/><a href='https://github.com/OStrekalovsky/S4RiS-StanD'>Проект на GitHub</a>.<br/>Стрекаловский Олег (<a href=\'mailto: o.strekalovsky@yandex.ru\'>o.strekalovsky@yandex.ru</a>)"
         },
         "en": {
             "solvedProblems": "Problems",
@@ -63,7 +63,7 @@ function L18n() {
             "note5": "More entries in the event log — greater load on the browser and it's Java Script engine.<br/> On slower machines and not the latest versions of browsers may drop the speed and smoothness",
             "note6": "If you do not like the look of the table or the principle of counting the results of contest and etc. - write to me and together we will solve your problems",
             "note7": "If you use this software on your competition - write to me about your experience with it.<br/> Comments and recommendations are welcome!",
-            "authorInfo": "S4RiS StanD 1.9.1<br/><a href='http://github.com'>GitHub project page</a>.<br/>Strekalovsky Oleg (<a href=\"mailto: o.strekalovsky@yandex.ru\">o.strekalovsky@yandex.ru</a>)"
+            "authorInfo": "S4RiS StanD 1.9.1<br/><a href='https://github.com/OStrekalovsky/S4RiS-StanD'>GitHub project page</a>.<br/>Strekalovsky Oleg (<a href=\"mailto: o.strekalovsky@yandex.ru\">o.strekalovsky@yandex.ru</a>)"
         }
     }
 
