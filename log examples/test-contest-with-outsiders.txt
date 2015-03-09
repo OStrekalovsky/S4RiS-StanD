@@ -1,0 +1,70 @@
+{
+    "contestName": "Regression Testing Contest with Outsiders",
+    "freezeTimeMinutesFromStart": 5,
+    "problemLetters":
+    [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+    ],
+    "contestants":
+    [
+        "x",
+        "y",
+        "x1",
+        "y1",
+        "x2",
+        "y2"
+
+    ],
+    "outsiders":
+    [
+        "x"
+    ],
+    "runs":
+    [
+        {
+            "contestant": "x",
+            "problemLetter": "B",
+            "timeMinutesFromStart": 8,
+            "success": false
+        },
+        {
+            "contestant": "x",
+            "problemLetter": "A",
+            "timeMinutesFromStart": 9,
+            "success": false
+        },
+        {
+            "contestant": "x",
+            "problemLetter": "B",
+            "timeMinutesFromStart": 10,
+            "success": false
+        },
+        {
+            "contestant": "x",
+            "problemLetter": "A",
+            "timeMinutesFromStart": 11,
+            "success": false
+        },
+        {
+            "contestant": "x",
+            "problemLetter": "A",
+            "timeMinutesFromStart": 20,
+            "success": true
+        },
+        {
+            "contestant": "y",
+            "problemLetter": "A",
+            "timeMinutesFromStart": 40,
+            "success": true
+        }
+    ]
+}

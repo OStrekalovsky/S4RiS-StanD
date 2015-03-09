@@ -1,6 +1,6 @@
 ﻿/**
  Main JavaScript library for S4RiS StanD.
- Version: 1.9.1 - Presenter Mod.
+ Version: 1.10 - Presenter Mod.
  Author: Oleg "OSt" Strekalovsky.
  */
 
@@ -42,9 +42,15 @@ function Run(contestant, problem, time, success) {
 /**
  Contestant
  */
-function Contestant(name) {
+function Contestant(name, isOutsider) {
     this.name = name;
-    this.runsList = new Array();
+    /**
+     * Is contestant "outsider" - his position does not affect the other contestants places.
+     * He did not take up any place in standings, but his results will be unfrozen like other contestants
+     * @type {boolean}
+     */
+    this.outsider = isOutsider ? isOutsider : false;
+    this.runsList = [];
     /**
      Actual penalty.
      */
@@ -58,15 +64,15 @@ function Contestant(name) {
      */
     this.lastSuccessTime = 0;
     this.runInfoHash = {};
-    this.place = 1;
+    this.place = isOutsider ? "" : 1;
 
     this.addRun = function (run) {
         this.runsList[this.runsList.length] = run;
-    }
+    };
 
     this.getAllRuns = function () {
         return runsList;
-    }
+    };
 
     /**
      Comparator for 2 contestant by ACM ICPC rule.
@@ -81,7 +87,7 @@ function Contestant(name) {
         } else {
             return second.totalSolved - this.totalSolved;
         }
-    }
+    };
 
     this.toString = function () {
         return name;
@@ -118,10 +124,11 @@ function Contest(json, defrostingComparatorName) {
     this.getContestants = function () {
         var contestantsHash = {};
         for (var idx in this.inputLog.contestants) {
-            contestantsHash['' + this.inputLog.contestants[idx] + ''] = new Contestant(this.inputLog.contestants[idx]);
+            var isOutsider = this.inputLog.outsiders && this.inputLog.outsiders.indexOf(this.inputLog.contestants[idx]) >= 0;
+            contestantsHash['' + this.inputLog.contestants[idx] + ''] = new Contestant(this.inputLog.contestants[idx], isOutsider);
         }
         return contestantsHash;
-    }
+    };
 
     this.getProblems = function () {
         var problemsHash = {};
@@ -129,10 +136,10 @@ function Contest(json, defrostingComparatorName) {
             problemsHash['' + this.inputLog.problemLetters[idx] + ''] = new Problem(this.inputLog.problemLetters[idx]);
         }
         return problemsHash;
-    }
+    };
 
     this.getRuns = function (cHash, pHash) {
-        var runsList = new Array();
+        var runsList = [];
         for (var idx in this.inputLog.runs) {
             var contestant = cHash['' + this.inputLog.runs[idx].contestant + ''];
             var problem = pHash['' + this.inputLog.runs[idx].problemLetter + ''];
@@ -142,7 +149,7 @@ function Contest(json, defrostingComparatorName) {
             cHash['' + contestant.name + ''].addRun(runsList[idx]);
         }
         return runsList;
-    }
+    };
 
     this.createFrozenStandings = function () {
         var cHash = this.getContestants();
@@ -188,14 +195,14 @@ function Standings(cHash, limit, defrostingComparatorName) {
      */
     this.ProblemDefrostingComparatorByLastSubmitTime = function (first, second) {
         return first.run.lastSubmitTime - second.run.lastSubmitTime;
-    }
+    };
 
     /*
      * Comparator of contestant problems defrosting order by alphabetic problem name.
      */
     this.ProblemDefrostingComparatorByProblemName = function (first, second) {
         return first.problem.localeCompare(second.problem);
-    }
+    };
 
     if (defrostingComparatorName == 'alphabeticProblemOrder') {
         this.ProblemDefrostingComparator = this.ProblemDefrostingComparatorByProblemName;
@@ -214,9 +221,9 @@ function Standings(cHash, limit, defrostingComparatorName) {
         } else {
             return second.totalSolved - first.totalSolved;
         }
-    }
+    };
 
-    this.rankList = new Array();
+    this.rankList = [];
     for (var name in cHash) {
         this.rankList[this.rankList.length] = cHash[name];
     }
@@ -224,15 +231,15 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.get = function (idx) {
         return this.rankList[idx];
-    }
+    };
 
     this.set = function (idx, contestant) {
         this.rankList[idx] = contestant;
-    }
+    };
 
     this.size = function () {
         return this.rankList.length;
-    }
+    };
 
     /**
      Current row in standings
@@ -248,11 +255,11 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.setCurRow = function (row) {
         curRow = row;
-    }
+    };
 
     this.getCurRow = function () {
         return curRow;
-    }
+    };
 
     /**
      Current row at frame.
@@ -261,11 +268,11 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.setCurFrameRow = function (row) {
         curFrameRow = row;
-    }
+    };
 
     this.getCurFrameRow = function () {
         return curFrameRow;
-    }
+    };
 
     /**
      Current top row at frame.
@@ -274,11 +281,11 @@ function Standings(cHash, limit, defrostingComparatorName) {
 
     this.setCurTopRow = function (row) {
         curTopRow = row;
-    }
+    };
 
     this.getCurTopRow = function () {
         return curTopRow;
-    }
+    };
 
     /**
      Update places in standings.
@@ -286,21 +293,28 @@ function Standings(cHash, limit, defrostingComparatorName) {
     this.updatePlaces = function () {
         var place = 1;
         var size = this.size();
+        var lastNotOutsider = null;
         for (var i = 0; i < size; i++) {
-            if (i == 0) {
+            if (this.get(i).outsider){
+                // If contestant is outsider, then simply hide place caption
+                getRow(i).find('.info-caption:lt(1)').css('visibility', 'hidden');
+                continue;
+            }
+            if (lastNotOutsider == null) {
                 this.get(i).place = place;
             } else {
-                if (this.get(i).compareTo(this.get(i - 1)) == 0) {
-                    this.get(i).place = this.get(i - 1).place;
+                if (this.get(i).compareTo(lastNotOutsider) == 0) {
+                    this.get(i).place = lastNotOutsider.place;
                 } else {
                     this.get(i).place = place;
                 }
             }
+            lastNotOutsider = this.get(i);
             place++;
-
             setContestantPlace(i, this.get(i).place);
+
         }
-    }
+    };
 
     /**
      Moves row up.
@@ -330,7 +344,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 moveRow(save - delta, -1);
             }
         }
-    }
+    };
 
     this.flashActive = false;
 
@@ -372,7 +386,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 this.curRunInfo.defrost = true;
             }
         } else {
-            var tempProblemList = new Array();
+            var tempProblemList = [];
             for (var pName in contestant.runInfoHash) {
                 tempProblemList.push({run: contestant.runInfoHash[pName], problem: pName});
             }
@@ -390,7 +404,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                             elem.animate({backgroundColor: '#FFFFFF'}, 400);
                             elem.animate({backgroundColor: '#FF9D00'}, 400);
                         }
-                    }
+                    };
                     this.timer = setInterval(object.func, 1000);
                     return;
                 }
@@ -413,7 +427,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 curFrameRow--;
             }
         }
-    }
+    };
 
     /**
      Process "Fast Next Step".
@@ -424,7 +438,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
         var contestant = this.get(curRow);
         setCurrentRow(curRow);
         var wasUp = false;
-        var tempProblemList = new Array();
+        var tempProblemList = [];
         for (var pName in contestant.runInfoHash) {
             tempProblemList.push({run: contestant.runInfoHash[pName], problem: pName});
         }
@@ -473,7 +487,7 @@ function Standings(cHash, limit, defrostingComparatorName) {
                 curFrameRow--;
             }
         }
-    }
+    };
 
     /**
      Move current row down and frameRow, if needed.
@@ -506,10 +520,8 @@ function JSONLogPanelControl() {
  Append to the page a template of the contestant row.
  */
 function createTemplateRow(idx) {
-    $('#standings-table').append('<div class="element" id="' + idx + '" style=" z-index:0"><table class="contestant-info"><tr><td><div class="contestant"></div></td></tr><tr style="top 50px;"><td><table class="problems-list"><tr><td class="info"><div class="info-caption">' + L18n.autoTranslate("place") + '</div><div class="info-text" id="place">0</div></td><td class="problem"><div class="problem-caption">&nbsp;</div><div class="problem-result" id="no-submitions">.</div></td><td class="info"><div class="info-caption">' + L18n.autoTranslate("solvedProblems") + '</div><div class="info-text" id="totalSolved">0</div></td><td class="info"><div class="info-caption">' + L18n.autoTranslate("penalty") + '</div><div class="info-text" id="penalty">0</div></td></tr></table></td></tr></table></div>');
-    $
-};
-
+    $('#standings-table').append('<div class="element" id="' + idx + '" style=" z-index:0"><table class="contestant-info"><tr><td><div class="contestant"></div></td></tr><tr style="top 50px;"><td><table class="problems-list"><tr><td class="info"><div class="info-caption">' + L18n.autoTranslate("place") + '</div><div class="info-text" id="place">&nbsp;</div></td><td class="problem"><div class="problem-caption">&nbsp;</div><div class="problem-result" id="no-submitions">.</div></td><td class="info"><div class="info-caption">' + L18n.autoTranslate("solvedProblems") + '</div><div class="info-text" id="totalSolved">0</div></td><td class="info"><div class="info-caption">' + L18n.autoTranslate("penalty") + '</div><div class="info-text" id="penalty">0</div></td></tr></table></td></tr></table></div>');
+}
 /**
  Set problem names.
  Problem ID is its name.
@@ -727,7 +739,7 @@ $('document').ready(function () {
             var standings = contest.createFrozenStandings();
             var problemsHash = contest.getProblems();
             var limit = contest.getTimeBeforeFreeze();
-            var problemsList = new Array();
+            var problemsList = [];
             setContestCaption(contest.getContestName());
             for (var letter in problemsHash) {
                 problemsList[problemsList.length] = problemsHash[letter].name;

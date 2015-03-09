@@ -24,9 +24,9 @@ function L18n() {
             "loadError": "Ошибка парсинга лога. Проверьте содержимое лога и выбранный формат",
             "wrongInputCombination": "Нельзя отобразить таблицу с таким количеством строк и количеством строк, выше \"размораживаемой\"",
             "control": "Управление:",
-            "goNext": "N — выполнить следующий шаг \"разморозки\"",
-            "goFastNext": "F — \"разморозить\" строку до первого AC без анимации",
-            "goBack": "B — откатиться вниз по таблице",
+            "goNext": "PageDown (Презентер, Клавиатура) — выполнить следующий шаг \"разморозки\"",
+            "goFastNext": "PageUp (Презентер, Клавиатура) — \"разморозить\" строку до первого AC без анимации",
+            "goBack": "B (Клавиатура) — откатиться вниз по таблице",
             "recommendations": "Рекомендации по использованию:",
             "note1": "До демонстрации разморозки обязательно проверьте, что система выдаёт в конечном итоге те же результаты, что и ваша тестирующая система",
             "note2": "Крайне не желательно слишком быстро размораживать таблицу — это чревато появлением проблем с анимациями.<br/>Спокойно дождитесь окончания всех обновлений на странице после очередного нажатия клавиши",
@@ -35,7 +35,7 @@ function L18n() {
             "note5": "Чем больше записей в логе соревнования — тем больше нагрузка на браузер и его JS движок. <br/>На слабых машинах и не последних версиях браузеров возможно падение скорости и плавности",
             "note6": "Если вас не устраивает внешний вид таблицы или принцип подсчёта результата соревнования — напишите мне и мы вместе решим ваши проблемы",
             "note7": "Если вы использовали данную программу на своём соревновании — напишите мне о вашем опыте работы с ней.<br/>Замечания и рекомендации приветствуются!",
-            "authorInfo": "S4RiS StanD 1.9.1<br/><a href='https://github.com/OStrekalovsky/S4RiS-StanD'>Проект на GitHub</a>.<br/>Стрекаловский Олег (<a href=\'mailto: o.strekalovsky@yandex.ru\'>o.strekalovsky@yandex.ru</a>)"
+            "authorInfo": "S4RiS StanD 1.10<br/><a href='https://github.com/OStrekalovsky/S4RiS-StanD'>Проект на GitHub</a>.<br/>Стрекаловский Олег (<a href=\'mailto: o.strekalovsky@yandex.ru\'>o.strekalovsky@yandex.ru</a>)"
         },
         "en": {
             "solvedProblems": "Problems",
@@ -51,10 +51,10 @@ function L18n() {
             "load": "Load",
             "loadError": "Parse log error. Check the contents of the log and the chosen format",
             "wrongInputCombination": "Can not display a table of the number of rows and number of lines, up \"unfreezes\"",
-            "control": "Control:",
-            "goNext": "N — perform  next step of \"unfreeze\"",
-            "goFastNext": "F — \"unfreeze\" row before first AC without animation",
-            "goBack": "B — move down current row",
+            "control": "Control (Presenter):",
+            "goNext": "PageDown (Presenter, Keyboard) — perform  next step of \"unfreeze\"",
+            "goFastNext": "PageUp (Presenter, Keyboard) — \"unfreeze\" row before first AC without animation",
+            "goBack": "B (Keyboard) — move down current row",
             "recommendations": "Tips to use:",
             "note1": "To demonstrate the defrost, sure to check that the system produces ultimately the same results as your testing system",
             "note2": "It's not advisable to defrost the table too quickly — it is fraught with the advent of stocks in the animations.<br/> Calmly wait until all the updates on the page after the next key press",
@@ -63,9 +63,9 @@ function L18n() {
             "note5": "More entries in the event log — greater load on the browser and it's Java Script engine.<br/> On slower machines and not the latest versions of browsers may drop the speed and smoothness",
             "note6": "If you do not like the look of the table or the principle of counting the results of contest and etc. - write to me and together we will solve your problems",
             "note7": "If you use this software on your competition - write to me about your experience with it.<br/> Comments and recommendations are welcome!",
-            "authorInfo": "S4RiS StanD 1.9.1<br/><a href='https://github.com/OStrekalovsky/S4RiS-StanD'>GitHub project page</a>.<br/>Strekalovsky Oleg (<a href=\"mailto: o.strekalovsky@yandex.ru\">o.strekalovsky@yandex.ru</a>)"
+            "authorInfo": "S4RiS StanD 1.10<br/><a href='https://github.com/OStrekalovsky/S4RiS-StanD'>GitHub project page</a>.<br/>Strekalovsky Oleg (<a href=\"mailto: o.strekalovsky@yandex.ru\">o.strekalovsky@yandex.ru</a>)"
         }
-    }
+    };
 
     /**
      Return browser localse - "ru","en" etc.
@@ -74,14 +74,14 @@ function L18n() {
     this.getBrowserLang = function () {
         var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || 'en').substr(0, 2).toLowerCase();
         return lang;
-    }
+    };
 
     /**
      Return translation in browser language.
      */
     this.autoTranslate = function (phrase) {
         return this.translate(this.getBrowserLang(), phrase);
-    }
+    };
 
     /**
      Return translation of prase in language lang.
