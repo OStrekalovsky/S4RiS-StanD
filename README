@@ -1,5 +1,5 @@
 Experimental branch "Outsiders" was added.
-You can define inside log JSON list of contestants "outsider" - they positions will not affect the other contestants places.
+You can define inside log JSON list of contestants "outsiders" - they positions will not affect the other contestants places.
 "Outsider" did not take up any place in standings, but his results will be unfrozen like other contestants.
 For example - look at "log examples/test-contest-with-outsiders.txt"
 
